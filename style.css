@@ -1,0 +1,7 @@
+.clock-container {
+    height: 150px;
+    width: 150px;
+    border: solid 1px black;
+    border-radius: 50%;
+    display: flex;
+}
