@@ -1,7 +1,53 @@
-.clock-container {
-    height: 150px;
-    width: 150px;
-    border: solid 1px black;
+body {
+    background-color: cadetblue;
+}
+
+.clock {
+    height: 280px;
+    width: 280px;
+    border: solid 8px rgb(255, 255, 255);
     border-radius: 50%;
-    display: flex;
+    position: relative;
+    justify-self: center;
+    background-color: rgba(255, 255, 255, 0.345);
+   
+}
+
+
+.hand-hour-hand {
+     height: 120px;
+    right: 50%;
+    bottom: 50%;
+    background: black;
+    width: 3%;
+    border-radius: 1rem;
+    position: absolute;
+    transform-origin: bottom;
+    transition:ease-in-out 0.1s;
+}
+
+
+
+.hand-minute-hand {
+     height: 100px;
+    right: 50%;
+    bottom: 50%;
+    background: black;
+    width: 2%;
+    border-radius: 1rem;
+    position: absolute;
+    transform-origin: bottom;
+    transition:ease-in-out 0.1s;
+}
+
+.hand-second-hand {
+    height: 100px;
+    right: 50%;
+    bottom: 50%;
+    background: black;
+    width: 1.5%;
+    border-radius: 1rem;
+    position: absolute;
+    transform-origin: bottom;
+    transition:ease-in-out 0.1s;
 }
